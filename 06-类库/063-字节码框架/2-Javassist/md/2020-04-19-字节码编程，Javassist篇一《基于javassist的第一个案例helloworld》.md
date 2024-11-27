@@ -1,6 +1,6 @@
 # 字节码编程，Javassist篇一《基于javassist的第一个案例helloworld》
 
-作者：小傅哥
+作者：柳叶枫
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 
 >沉淀、分享、成长，让自己和他人都能有所收获！
@@ -15,7 +15,7 @@
 
 在这之前我已经编写了 `Javaagent全链路监控` 和 `ASM` 的部分文章，虽然这部分技术内容在 **CRUD** 开发中并不常用，但随着自动化测试、非入侵监控的大量使用，还是蛮多人需要这样的技能学习的。同时我也是这样一个技能的学习者，为此后面会陆续编写和完善关于 **字节码编程** 这个专栏。也希望这个专栏在提升自己技术栈的同时也帮助他人成长。
 
-**那么**，小傅哥计划从 `Javassist` 到 `ASM` 陆续完成整套专栏学习的文章编写。从简单入门到应用操作，一步步来完成成体系的技术知识栈学习。
+**那么**，柳叶枫计划从 `Javassist` 到 `ASM` 陆续完成整套专栏学习的文章编写。从简单入门到应用操作，一步步来完成成体系的技术知识栈学习。
 
 **好！**，现在开始第一个Helloworld案例。*相关源码可以通过关注 `公众号：bugstack虫洞栈` 获取*
 
@@ -40,7 +40,7 @@
 ```java
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("javassist hi helloworld by 小傅哥(bugstack.cn)");
+        System.out.println("javassist hi helloworld by 柳叶枫(bugstack.cn)");
     }
 
     public HelloWorld() {
@@ -60,7 +60,7 @@ public class HelloWorld {
 /**
  * 公众号：bugstack虫洞栈
  * 博客栈：https://bugstack.cn - 沉淀、分享、成长，让自己和他人都能有所收获！
- * 本专栏是小傅哥多年从事一线互联网Java开发的学习历程技术汇总，旨在为大家提供一个清晰详细的学习教程。如果能为您提供帮助，请给予支持(关注、点赞、分享)！
+ * 本专栏是柳叶枫多年从事一线互联网Java开发的学习历程技术汇总，旨在为大家提供一个清晰详细的学习教程。如果能为您提供帮助，请给予支持(关注、点赞、分享)！
  */
 public class GenerateClazzMethod {
 
@@ -75,7 +75,7 @@ public class GenerateClazzMethod {
         // 添加方法
         CtMethod mainMethod = new CtMethod(CtClass.voidType, "main", new CtClass[]{pool.get(String[].class.getName())}, ctClass);
         mainMethod.setModifiers(Modifier.PUBLIC + Modifier.STATIC);
-        mainMethod.setBody("{System.out.println(\"javassist hi helloworld by 小傅哥(bugstack.cn)\");}");
+        mainMethod.setBody("{System.out.println(\"javassist hi helloworld by 柳叶枫(bugstack.cn)\");}");
         ctClass.addMethod(mainMethod);
 
         // 创建无参数构造方法
@@ -117,7 +117,7 @@ public class GenerateClazzMethod {
 ### 2. 输出的测试结果
 
 ```java
-javassist hi helloworld by 小傅哥(bugstack.cn)
+javassist hi helloworld by 柳叶枫(bugstack.cn)
 
 Process finished with exit code 0
 ```

@@ -1,6 +1,6 @@
 # 字节码编程，Byte-buddy篇二《监控方法执行耗时动态获取出入参类型和值》
 
-作者：小傅哥
+作者：柳叶枫
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 
 >沉淀、分享、成长，让自己和他人都能有所收获！
@@ -31,7 +31,7 @@ public class BizMethod {
 
     public String queryUserInfo(String uid, String token) throws InterruptedException {
         Thread.sleep(new Random().nextInt(500));
-        return "德莱联盟，王牌工程师。小傅哥(公众号：bugstack虫洞栈)，申请出栈！";
+        return "德莱联盟，王牌工程师。柳叶枫(公众号：bugstack虫洞栈)，申请出栈！";
     }
 
 }
@@ -132,7 +132,7 @@ public static Object intercept(@Origin Method method, @SuperCall Callable<?> cal
 入参个数：2
 入参类型：java.lang.String、java.lang.String
 出参类型：java.lang.String
-出参结果：德莱联盟，王牌工程师。小傅哥(公众号：bugstack虫洞栈)，申请出栈！
+出参结果：德莱联盟，王牌工程师。柳叶枫(公众号：bugstack虫洞栈)，申请出栈！
 方法耗时：490ms
 
 Process finished with exit code 0
@@ -172,7 +172,7 @@ public static Object intercept(@Origin Method method, @AllArguments Object[] arg
 入参类型：java.lang.String、java.lang.String
 入参内容：10001、Adhl9dkl
 出参类型：java.lang.String
-出参结果：德莱联盟，王牌工程师。小傅哥(公众号：bugstack虫洞栈)，申请出栈！
+出参结果：德莱联盟，王牌工程师。柳叶枫(公众号：bugstack虫洞栈)，申请出栈！
 方法耗时：405ms
 
 Process finished with exit code 0

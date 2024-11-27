@@ -1,6 +1,6 @@
 # ASM字节码编程 | 用字节码增强技术给所有方法加上TryCatch捕获异常并输出
 
-作者：小傅哥
+作者：柳叶枫
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 
 >沉淀、分享、成长，让自己和他人都能有所收获！
@@ -373,7 +373,7 @@ Process finished with exit code 1
 
 最近将个人原创代码库资源整理出一份 `wiki` 文档，同时逐步将各类案例汇总集中，方便获取。
 
-本代码库是作者小傅哥多年从事一线互联网Java开发的学习历程技术汇总，旨在为大家提供一个清晰详细的学习教程，侧重点更倾向编写Java核心内容。如果本仓库能为您提供帮助，请给予支持(关注、点赞、分享，给个Star ✨)！
+本代码库是作者柳叶枫多年从事一线互联网Java开发的学习历程技术汇总，旨在为大家提供一个清晰详细的学习教程，侧重点更倾向编写Java核心内容。如果本仓库能为您提供帮助，请给予支持(关注、点赞、分享，给个Star ✨)！
 
 **链接**：[https://github.com/fuzhengwei/CodeGuide/wiki](https://github.com/fuzhengwei/CodeGuide/wiki)
 

@@ -1,6 +1,6 @@
 # 链表 Link List
 
-作者：小傅哥
+作者：柳叶枫
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 <br/>原文：[https://mp.weixin.qq.com/s/Iw9oZ5EPIpstyd00QjhmBA](https://mp.weixin.qq.com/s/Iw9oZ5EPIpstyd00QjhmBA)
 

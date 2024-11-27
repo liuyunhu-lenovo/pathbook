@@ -1,6 +1,6 @@
 # 字节码编程，Javassist篇五《使用Bytecode指令码生成含有自定义注解的类和方法》
 
-作者：小傅哥
+作者：柳叶枫
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 
 >沉淀、分享、成长，让自己和他人都能有所收获！

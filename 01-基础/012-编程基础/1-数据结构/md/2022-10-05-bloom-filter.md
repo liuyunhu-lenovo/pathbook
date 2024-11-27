@@ -1,6 +1,6 @@
 # 布隆过滤器 Bloom Filter
 
-作者：小傅哥
+作者：柳叶枫
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
@@ -135,7 +135,7 @@ public boolean contains(String value) {
 ```java
 @Test
 public void test() {
-    String val00 = "小傅哥";
+    String val00 = "柳叶枫";
     String val01 = "https://bugstack.cn";
     String val02 = "https://github.com/fuzhengwei/CodeGuide";
     String val03 = "https://github.com/fuzhengwei";
@@ -155,7 +155,7 @@ public void test() {
 **测试结果**
 
 ```java
-21:33:22.790 [main] INFO bloom_filter.__test__.BloomFilterTest - 测试结果 val00：小傅哥 布隆过滤器：true
+21:33:22.790 [main] INFO bloom_filter.__test__.BloomFilterTest - 测试结果 val00：柳叶枫 布隆过滤器：true
 21:33:22.794 [main] INFO bloom_filter.__test__.BloomFilterTest - 测试结果 val01：https://bugstack.cn 布隆过滤器：true
 21:33:22.794 [main] INFO bloom_filter.__test__.BloomFilterTest - 测试结果 val02：https://github.com/fuzhengwei/CodeGuide 布隆过滤器：true
 21:33:22.795 [main] INFO bloom_filter.__test__.BloomFilterTest - 测试结果 val02：https://github.com/fuzhengwei 布隆过滤器：false

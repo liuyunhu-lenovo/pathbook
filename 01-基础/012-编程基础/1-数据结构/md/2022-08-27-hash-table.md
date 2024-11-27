@@ -1,6 +1,6 @@
 # 哈希表(散列) Hash
 
-作者：小傅哥
+作者：柳叶枫
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 <br/>原文：[https://mp.weixin.qq.com/s/j78MXMx6D_nDC_bCFvZ05g](https://mp.weixin.qq.com/s/j78MXMx6D_nDC_bCFvZ05g)
 
@@ -50,7 +50,7 @@
 
 只要哈希桶的长度由负载因子控制的合理，每次查找元素的平均时间复杂度与桶中存储的元素数量无关。另外许多哈希表设计还允许对键值对的任意插入和删除，每次操作的摊销固定平均成本。
 
-好，那么介绍了这么多，小傅哥带着大家做几个关于哈希散列的数据结构，通过实践来了解会更加容易搞懂。
+好，那么介绍了这么多，柳叶枫带着大家做几个关于哈希散列的数据结构，通过实践来了解会更加容易搞懂。
 
 - 源码地址：[https://github.com/fuzhengwei/java-algorithms](https://github.com/fuzhengwei/java-algorithms)- `Java 算法与数据结构`
 - 本章源码：[https://github.com/fuzhengwei/java-algorithms/tree/main/data-structures/src/main/java/hash_table](https://github.com/fuzhengwei/java-algorithms/tree/main/data-structures/src/main/java/hash_table)

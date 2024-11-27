@@ -1,13 +1,13 @@
 # 字节码编程，Byte-buddy篇一《基于Byte Buddy语法创建的第一个HelloWorld》
 
-作者：小傅哥
+作者：柳叶枫
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 
 >沉淀、分享、成长，让自己和他人都能有所收获！
 
 ## 一、前言
 
-相对于[`小傅哥`](https://bugstack.cn)之前编写的字节码编程； `ASM`、`Javassist` 系列，`Byte Buddy` 玩法上更加高级，你可以完全不需要了解一个类和方法块是如何通过 `指令码` *LDC、LOAD、STORE、IRETURN...* 生成出来的。就像它的官网介绍； 
+相对于[`柳叶枫`](https://bugstack.cn)之前编写的字节码编程； `ASM`、`Javassist` 系列，`Byte Buddy` 玩法上更加高级，你可以完全不需要了解一个类和方法块是如何通过 `指令码` *LDC、LOAD、STORE、IRETURN...* 生成出来的。就像它的官网介绍； 
 
 `Byte Buddy` 是一个代码生成和操作库，用于在 `Java` 应用程序运行时创建和修改 `Java` 类，而无需编译器的帮助。除了 `Java` 类库附带的代码生成实用程序外，`Byte Buddy` 还允许创建任意类，并且不限于实现用于创建运行时代理的接口。此外，`Byte Buddy` 提供了一种方便的 API，可以使用 `Java` 代理或在构建过程中手动更改类。
 
@@ -36,7 +36,7 @@
 public class Hi {
 
     public static void main(String[] args) {
-        System.out.println("Byte-buddy Hi HelloWorld By 小傅哥(bugstack.cn)");
+        System.out.println("Byte-buddy Hi HelloWorld By 柳叶枫(bugstack.cn)");
     }
 
 }

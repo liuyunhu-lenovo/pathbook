@@ -1,6 +1,6 @@
 # 字节码编程，Byte-buddy篇三《使用委托实现抽象类方法并注入自定义注解信息》
 
-作者：小傅哥
+作者：柳叶枫
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 
 >沉淀、分享、成长，让自己和他人都能有所收获！
@@ -89,7 +89,7 @@ public @interface RpcGatewayMethod {
 public class UserRepositoryInterceptor {
 
     public static String intercept(@Origin Method method, @AllArguments Object[] arguments) {
-        return "小傅哥博客，查询文章数据：https://bugstack.cn/?id=" + arguments[0];
+        return "柳叶枫博客，查询文章数据：https://bugstack.cn/?id=" + arguments[0];
     }
 
 }
@@ -201,7 +201,7 @@ RpcGatewayClazz.alias：dataApi
 RpcGatewayClazz.timeOut：350
 RpcGatewayMethod.methodName：queryData
 RpcGatewayMethod.methodDesc：查询数据
-小傅哥博客，查询文章数据：https://bugstack.cn/?id=10001
+柳叶枫博客，查询文章数据：https://bugstack.cn/?id=10001
 
 Process finished with exit code 0
 ```
